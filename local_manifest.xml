@@ -2,11 +2,11 @@
 <manifest>
           
         <remote name="dblenk9"
-                fetch="https://github.com" />
+                fetch="https://github.com/dblenk-project" />
         <remote name="scnprh"
                 fetch="https://gitlab.com" />
         <remote name="Asyanx"
-                fetch="https://github.com" />
+                fetch="https://github.com/Asyanx" />
 
   <!-- Sync trees -->
   <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Asyanx" revision="lineage-20" />
@@ -20,3 +20,4 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
 
 </manifest>
+Lsjxkz
