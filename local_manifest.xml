@@ -2,11 +2,11 @@
 <manifest>
           
         <remote name="dblenk"
-                fetch="https://github.com/dblenk-project" />
+                fetch="https://github.com/dblenk-project/" />
         <remote name="Asyanx"
-                fetch="https://github.com/Asyanx" />
+                fetch="https://github.com/Asyanx/" />
         <remote name="Agatha-Prjkt"
-                fetch="https://github.com/Agatha-Prjkt" />
+                fetch="https://github.com/Agatha-Prjkt/" />
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
