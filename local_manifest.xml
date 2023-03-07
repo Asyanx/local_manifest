@@ -3,21 +3,37 @@
           
         <remote name="dblenk9"
                 fetch="https://github.com" />
-        <remote name="bootctrl" 
-                fetch="https://github.com/LineageOS"
-                revision="refs/heads/lineage-18.1" />
-        <remote name="dblenk99"
-                fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+        <remote name="scnprh"
+                fetch="https://gitlab.com" />
 
-        <!-- Remove some projects -->
-	<!-- <remove-project name="android_packages_apps_Matlog"/> -->
+  <!-- fog trees -->
+  <project path="device/xiaomi/fog" name="dblenk-project/device_xiaomi_fog" remote="dblenk9" revision="lineage-20" />
+  <project path="vendor/xiaomi/fog" name="dblenk-project/vendor_xiaomi_fog" remote="dblenk9" revision="lineage-20" />
 
-        <!-- Sync trees -->
-        <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
-        <project path="device/xiaomi/mojito" name="boedhack99/rec_mojito" remote="dblenk9" revision="shrp" />
-        <!-- <project path="kernel/xiaomi/mojito" name="PixelExperience-Devices/kernel_xiaomi_mojito" remote="dblenk9" revision="eleven" /> -->
+  <!-- mojito trees
+  <project path="device/xiaomi/mojito" name="dblenk-project/device_xiaomi_mojito" remote="dblenk9" revision="lineage-20" />
+  <project path="vendor/xiaomi/mojito" name="dblenk-project/vendor_xiaomi_mojito" remote="dblenk9" revision="lineage-20" /> -->
+
+  <!-- sm6225-common
+  <project path="device/xiaomi/sm6225-common" name="dblenk-project/device_xiaomi_sm6225-common" remote="dblenk9" revision="backup" /> -->
+  <!-- <project path="vendor/xiaomi/sm6225-common" name="dblenk-project/vendor_xiaomi_sm6225-common" remote="dblenk9" revision="lineage-20" /> -->
+
+  <!-- fog kernel headers -->
+  <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="dblenk9" revision="lineage-19.1" />
+
+  <!-- mojito kernel
+  <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="dblenk9" revision="inline-rom" /> -->
+
+  <!-- hardware xiaomi -->
+  <project path="hardware/xiaomi" name="dblenk-project/hardware_xiaomi" remote="dblenk9" revision="lineage-20" clone-depth="1" />
+
+  <!-- Extras
+  <remove-project name="platform/frameworks/opt/net/ims"/>
+  <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" remote="dblenk9" revision="13.0" clone-depth="1" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="dblenk9" revision="13.0" clone-depth="1" /> -->
+
+  <!-- Prebuilt Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="scnprh" revision="master" clone-depth="1" />
 
 </manifest>
-
-
- 
