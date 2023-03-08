@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <!-- Remote -->
+   <!-- remote names -->
    <remote name="lab" fetch="https://gitlab.com"/>
    <remote name="hub" fetch="https://github.com"/>
 
-   <!-- Sync trees -->
    <project name="Asyanx/device_xiaomi_fog" path="device/xiaomi/fog" remote="hub" revision="13" clone-depth="1" />
    <project name="Asyanx/vendor_xiaomi_fog.git" path="vendor/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />      
    <project name="Asyanx/kernel_xiaomi_fog" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
      
-   <!-- hardware xiaomi -->
    <project name="Asyanx/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="13" />
-
-   <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
-
 </manifest>
