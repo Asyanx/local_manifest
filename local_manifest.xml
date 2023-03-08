@@ -6,14 +6,14 @@
    <remote name="hub" fetch="https://github.com"/>
 
    <!-- Sync trees -->
-   <project path="device/xiaomi/fog" name="Asyanx/device_xiaomi_fog" remote="hub" revision="13" clone-depth="1" />
-   <project path="vendor/xiaomi/fog" name="Asyanx/vendor_xiaomi_fog" remote="hub" revision="lineage-20" clone-depth="1" />
+   <project path="device/xiaomi/fog" name="Asyanx/device_xiaomi_fog.git" remote="hub" revision="13" clone-depth="1" />
+   <project path="vendor/xiaomi/fog" name="Asyanx/vendor_xiaomi_fog.git" remote="hub" revision="lineage-20" clone-depth="1" />
    
    <!-- kernel headers -->       
-   <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="hub" revision="lineage-20" />
+   <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header.git" remote="hub" revision="lineage-20" />
      
    <!-- hardware xiaomi -->
-   <project path="hardware/xiaomi" name="Agatha-Prjkt/hardware_xiaomi" remote="hub" revision="13" />
+   <project path="hardware/xiaomi" name="Agatha-Prjkt/hardware_xiaomi.git" remote="hub" revision="13" />
 
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
