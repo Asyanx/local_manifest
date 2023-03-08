@@ -10,7 +10,7 @@
    <project name="Asyanx/kernel_xiaomi_fog" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
      
    <!-- hardware xiaomi -->
-   <project name="Asyanx/hardware_xiaomi"path="hardware/xiaomi" remote="hub" revision="13" />
+   <project name="Asyanx/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="13" />
 
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
