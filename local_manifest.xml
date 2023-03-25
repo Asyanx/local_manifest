@@ -5,7 +5,7 @@
    <remote name="hub" fetch="https://github.com"/>
 
   <!-- Sync trees -->
-   <project name="Asyanx/device_xiaomi_fog" path="device/xiaomi/fog" remote="hub" revision="aosp-13" clone-depth="1" />
+   <project name="Asyanx/device_xiaomi_fog" path="device/xiaomi/fog" remote="hub" revision="pixys" clone-depth="1" />
    <project name="Asyanx/vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />      
    <project name="Asyanx/kernel_xiaomi_fog-header" path="kernel/xiaomi/fog" remote="hub" revision="a13" clone-depth="1" />
 
