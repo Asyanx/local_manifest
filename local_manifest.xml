@@ -5,8 +5,8 @@
    <remote name="hub" fetch="https://github.com"/>
 
    <project name="Asyanx/device_xiaomi_fog" path="device/xiaomi/fog" remote="hub" revision="aosp-13" clone-depth="1" />
-   <project name="Asyanx/vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="hub" revision="aosp-13" clone-depth="1" />      
-   <project name="Asyanx/kernel_xiaomi_fog" path="kernel/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />
+   <project name="Asyanx/vendor_xiaomi_fog" path="vendor/xiaomi/fog" remote="hub" revision="lineage-20" clone-depth="1" />      
+   <project name="Asyanx/kernel_xiaomi_fog-header" path="kernel/xiaomi/fog" remote="hub" revision="a13" clone-depth="1" />
    <project name="Asyanx/hardware_xiaomi" path="hardware/xiaomi" remote="hub" revision="los-20" clone-depth="1" />
      
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
